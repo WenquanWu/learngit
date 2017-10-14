@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Vue.js</title>
+	<style type="text/css">  
+		*{ margin:0px; padding:0px;}  
+		#nav{ width:600px; height:40px;}  
+		#nav ul{ list-style:none;}  
+		#nav ul li{ float:left; line-height:60px; text-align:left; position:relative;}  
+		#nav ul li a{ text-decoration:none; color:#000; display:block;padding:0px 10px;}  
+		#nav ul li a:hover{ color:#6495ED; background:#F0F8FF}  
+		#nav ul li ul{ position:absolute; display:none;}  
+		#nav ul li ul li{ float:none; line-height:30px; text-align:left;}  
+		#nav ul li ul li a{ width:100%;}  
+		#nav ul li ul li a:hover{ background-color:#FFFAF0;}  
+		#nav ul li:hover ul{ display:block}  
+	</style>  
+</head>
+<body  bgcolor="#87CEFA">
+	<div id="nav">
+		<ul>
+			<li><a>学习</a>
+				<ul>
+					<li><a href="https://cn.vuejs.org/v2/guide/">教程</a></li>
+					<li><a href="https://cn.vuejs.org/v2/api/">API</a></li>
+					<li><a href="https://cn.vuejs.org/v2/style-guide/">风格指南 (beta)</a></li>
+					<li><a href="https://cn.vuejs.org/v2/examples/" >示例</a></li>
+				</ul>
+			</li>
+			<li><a>生态系统</a>
+				<ul>
+					<li><a href="https://github.com/vuejs/roadmap" class="nav-link" target="_blank">Roadmap</a></li>
+					<li><h4>帮助</h4></li>	
+					<li><a href="https://forum.vuejs.org/" class="nav-link" target="_blank">论坛</a></li>
+					<li><a href="https://chat.vuejs.org/" class="nav-link" target="_blank">聊天室</a></li>
+					<li><a href="https://github.com/vuejs-templates" class="nav-link" target="_blank">模板</a></li>
+					<li><h4>信息</h4></li>
+					<li><a href="https://twitter.com/vuejs" class="nav-link" target="_blank">Twitter</a></li>
+					<li><a href="https://medium.com/the-vue-point" class="nav-link" target="_blank">博客</a></li>
+					<li><a href="https://vuejobs.com/?ref=vuejs" class="nav-link" target="_blank">工作</a></li>
+					<li><h4>核心插件</h4></li>
+					<li><a href="https://router.vuejs.org/"  target="_blank">Vue Router</a></li>
+					<li><a href="https://vuex.vuejs.org/"  target="_blank">Vuex</a></li>
+					<li><a href="https://ssr.vuejs.org/"  target="_blank">Vue 服务端渲染</a></li>
+					<li><h4>资源列表</h4></li>
+					<li><a href="https://github.com/vuejs"  target="_blank">官方仓库</a></li>
+					<li><a href="https://curated.vuejs.org/"  target="_blank">Vue 优选</a></li>
+					<li><a href="https://github.com/vuejs/awesome-vue"  target="_blank">Vue 资源</a></li>
+				</ul>
+			</li>
+			<li><a href="https://cn.vuejs.org/v2/guide/team.html">团队</a></li>
+			<li><a>多语言</a>
+				<ul>
+					<li><a href="https://vuejs.org/index.html"  target="_blank">English</a></li>
+					<li><a href="https://jp.vuejs.org/index.html"  target="_blank">日語</a></li>
+					<li><a href="https://ru.vuejs.org/index.html"  target="_blank">Русский</a></li>
+					<li><a href="https://kr.vuejs.org/index.html"  target="_blank">한국어</a></li>
+					<li><a href="https://br.vuejs.org/index.html"  target="_blank">Português</a></li>
+					<li><a href="https://fr.vuejs.org/index.html"  target="_blank">Français</a></li>
+				</ul>
+			</li>
+			<li><a href="https://github.com/vuejs/cn.vuejs.org/" target="_blank">参与翻译</a></li>
+			
+		</ul>
+	</div>
+	<div>
+		<div>
+			<img src="logo.png" width="200px"; height="200px"; style="position:absolute; left:300px; top:150px; ">
+		</div>
+		<div style="position:absolute; left:550px; top:150px; ">
+			<h2>Vue.js</h2>
+			<h1 style="font-size:40px">渐进式</h1>
+			<h1 style="font-size:40px">JavaScript 框架</h1>
+			<br/>
+			<br/>
+			<p>
+				<a href="https://cn.vuejs.org/v2/guide/" target="_blank"><span style="font-size:30px">起步</span></a>
+				<a href="https://github.com/vuejs/vue" target="_blank"><span style="font-size:30px">GITHUB</span></a>
+			</p>
+		</div>
+	</div>
+
+	<div style="position:absolute; left:350px; top:400px; ">
+		<table border="0" style="margin:0 auto" cellspacing="10" cellpadding="10">
+			<thead>
+			<tr>
+				<th align="center" style="color:green"><h1>易用</h1></td>
+				<th align="center" style="color:green"><h1>灵活</h1></td>
+				<th align="center" style="color:green"><h1>高效</h1></td>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>已经会了 HTML、CSS、JavaScript？<br/>
+					即刻阅读指南开始构建应用！
+				</td>
+				<td>不断繁荣的生态系统，可以在一个<br/>
+					库和一套完整框架之间自如伸缩。
+				</td>
+				<td>20kB min+gzip 运行大小<br>
+					超快虚拟 DOM <br>
+					最省心的优化
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div style="position:absolute; left:650px; top:600px; ">
+		<h3>Patreon 赞助者</h3>
+
+		<a href="https://xiaozhuanlan.com/" target="_blank" style="width: 160px;">
+		<img src="xiaozhuanlan.png" style="width: 160px;">
+		</a>
+	</div>
+	
+</body>
+</html>
